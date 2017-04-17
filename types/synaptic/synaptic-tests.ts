@@ -1,6 +1,6 @@
 // Neurons
 // =======
-namespace NeuronTests {
+{
     // project
     // -------
     var A = new Neuron();
@@ -55,7 +55,7 @@ namespace NeuronTests {
 
 // Layers
 // ======
-namespace LayerTests {
+{
     // project
     // -------
     var A = new Layer(5);
@@ -115,8 +115,7 @@ namespace LayerTests {
 
 // Networks
 // ========
-
-namespace NetworkTests {
+{
     var inputLayer = new Layer(4);
     var hiddenLayer = new Layer(6);
     var outputLayer = new Layer(2);
@@ -380,7 +379,7 @@ namespace NetworkTests {
 
 // Architect
 // =========
-namespace ArchitectTests {
+{
     // Perceptron
     // ----------
     var myPerceptron = new Architect.Perceptron(2, 3, 1);
@@ -416,7 +415,7 @@ namespace ArchitectTests {
 
 // Trainer
 // =======
-namespace TrainerTests {
+{
     // train
     // -----
     var myNetwork = new Architect.Perceptron(2, 2, 1)
